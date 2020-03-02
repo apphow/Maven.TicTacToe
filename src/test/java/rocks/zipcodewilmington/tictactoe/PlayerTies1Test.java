@@ -34,7 +34,6 @@ public class PlayerTies1Test {
     }
 
 
-
     @Test
     public void isInFavorOfPlayerOTest() {
         // Given
@@ -62,14 +61,6 @@ public class PlayerTies1Test {
 
     @Test
     public void isTieTest() {
-        // Given
-        Boolean expected = true;
-
-        // When
-        Boolean actual = board.isTie();
-
-        // Then
-        Assert.assertEquals(expected, actual);
 
     }
 }
